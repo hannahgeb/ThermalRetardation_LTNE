@@ -20,6 +20,7 @@ To run the heat transport model of this study, [MOOSE](https://mooseframework.in
 - `data/` - contains the data used in this project
 	- `Example_L1q2_var3/` - contains an example heterogeneous realization for scenario 'L1q2' and a log-conductivity variance of 3
 		+ `dT_arr_0.npy` - four-dimensional (z,y,x,t) numpy array containing temperature field
+  		+  `K0.data` - three-dimensional heterogeneous permeability field, which serves as input for the heat transport simulation
 	- `MOOSE_input_files/` - contains MOOSE input files and data required to run heat transport simulations for heterogeneous and homogeneous cases
 		+ `heat_trans.i` - MOOSE input file for the homogeneous cases (all scenarios)
 		+ `heat_trans_add_disp.i` - MOOSE input file for the homogeneous case with added macrodispersion (scenario 'L1q2')
