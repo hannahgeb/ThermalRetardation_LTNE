@@ -5,8 +5,8 @@ Script generating random 3D heterogeneous hydraulic conductivity (K) fields
 using the Python package GSTools (Müller et al. 2022). The hydraulic conductivity
 field follows a log-normal distribution (ln K) and a Gaussian covariance model is used.
 One exemplary realization for a log-conductivity variance of 1 is generated.
-The generated ln K field is transformed to permeability, which is saved as a 
-data input file (K{}.data) for the MOOSE simulation. 
+The generated hydraulic conductivity field is transformed to permeability, which is saved 
+as a data input file (K{}.data) for the MOOSE simulation. 
 
 Author: H. Gebhardt
 """
