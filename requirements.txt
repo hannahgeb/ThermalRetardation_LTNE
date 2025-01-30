@@ -1,2 +1,7 @@
-gstools==1.2.1
+numpy
+scipy
+pandas
+python
+gstools
+statsmodels
 matplotlib
