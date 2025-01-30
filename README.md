@@ -74,7 +74,7 @@ To run the heat transport model of this study, [MOOSE](https://mooseframework.in
 	- `L2q2/` - contains results for scenario 'L2q2'
 	- `L3q2/` - contains results for scenario 'L3q2'
 	+ `lin_reg_identify_Rapp.csv` - identification of normalized time step and corresponding effective thermal retardation factors
-        + `linear_regression.csv` - multi-variable linear regression results (intercept, coefficients, R^2, RMSE) based on effective thermal retardation values for each normalized time step
+   	+ `linear_regression.csv` - multi-variable linear regression results (intercept, coefficients, R^2, RMSE) based on effective thermal retardation values for each normalized time step
 - `src/` - contains all scripts used for running simulations, data analyses and plotting of results
 	+ `00_generate_3D_lnK_fields.py` - script generating random 3D heterogeneous hydraulic conductivity fields
 	+ `01_run_sim.py` - script running MOOSE simulations for heterogeneous realizations generated with '00_generate_3D_lnK_fields.py' and storing temperature fields
