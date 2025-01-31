@@ -17,28 +17,16 @@ To run the heat transport model of this study, [MOOSE](https://mooseframework.in
 - `README.md` - description of the repository
 - `LICENSE` - the default license is MIT
 - `requirements.txt` - requirements for [pip](https://pip.pypa.io/en/stable/user_guide/#requirements-files) to install all needed packages (see below)
-- `data/` - contains the data used in this project
-	- `Example_L1q2_var3/` - contains an example heterogeneous realization for scenario 'L1q2' and a log-conductivity variance of 3
-		+ `dT_arr_0.npy` - four-dimensional (z,y,x,t) numpy array containing temperature field
-  		+  `K0.data` - three-dimensional heterogeneous permeability field, which serves as input for the heat transport simulation
-	- `MOOSE_input_files/` - contains MOOSE input files and data required to run heat transport simulations for heterogeneous and homogeneous cases
-		+ `heat_trans.i` - MOOSE input file for the homogeneous cases (all scenarios)
-		+ `heat_trans_add_disp.i` - MOOSE input file for the homogeneous case with added macrodispersion (scenario 'L1q2')
-		+ `heat_trans_mgf.i` - MOOSE input file for the heterogeneous cases (all scenarios)
-		+ `K0.data` - three-dimensional heterogeneous permeability field generated with the script './src/00_generate_3D_lnK_fields.py'
-		+ `lambda_eff_f_var1.txt` - scale-dependent effective longitudinal thermal conductivity of fluid for a log-conductivity variance of 1 
-		+ `lambda_eff_f_var2.txt` - scale-dependent effective longitudinal thermal conductivity of fluid for a log-conductivity variance of 2 
-		+ `lambda_eff_f_var3.txt` - scale-dependent effective longitudinal thermal conductivity of fluid for a log-conductivity variance of 3
-		+ `mesh.e` - mesh for the homogeneous cases with added macrodispersion
+- `data/` - contains MOOSE input files and data required to run heat transport simulations for heterogeneous and homogeneous cases
+	+ `heat_trans.i` - MOOSE input file for the homogeneous cases (all scenarios)
+	+ `heat_trans_add_disp.i` - MOOSE input file for the homogeneous case with added macrodispersion (scenario 'L1q2')
+	+ `heat_trans_mgf.i` - MOOSE input file for the heterogeneous cases (all scenarios)
+	+ `K0.data` - three-dimensional heterogeneous permeability field generated with the script './src/00_generate_3D_lnK_fields.py'
+	+ `lambda_eff_f_var1.txt` - scale-dependent effective longitudinal thermal conductivity of fluid for a log-conductivity variance of 1 
+	+ `lambda_eff_f_var2.txt` - scale-dependent effective longitudinal thermal conductivity of fluid for a log-conductivity variance of 2 
+	+ `lambda_eff_f_var3.txt` - scale-dependent effective longitudinal thermal conductivity of fluid for a log-conductivity variance of 3
+	+ `mesh.e` - mesh for the homogeneous cases with added macrodispersion
 - `results/` - contains results of the processed data (dispersion and retardation values) and the figures of the manuscript
-	- `Example_L1q2_var3/` - contains results of a single heterogeneous realization for scenario 'L1q2' and a log-conductivity variance of 3
-		+ `D_L.csv` - longitudinal dispersion coefficient and macrodispersivity for each distance from the heat source, RMSE for fitting procedure
-		+ `D_T.csv` - transverse dispersion coefficient for each distance from the heat source
-		+ `kxx_t.csv` - longitudinal second centered moments as a function of time
-		+ `kyy_x_sst.csv` - steady-state transverse second centered moments for each distance from the heat source 
-		+ `lambda_eff_f.csv` - effective longitudinal thermal conductivity of the fluid for each distance from the heat source
-		+ `Reff.csv` - effective thermal retardation factor as a function of time
-		+ `v_therm.csv` - thermal velocity as function of time
 	- `Figures_paper/` - contains figures of results as displayed in the main manuscript 
 		+ `4_kyy_DT.pdf`
 		+ `5_scale_dependent_DL.pdf`
