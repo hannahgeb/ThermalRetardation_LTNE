@@ -27,7 +27,7 @@ L_idx = 1   # index of considered correlation length L_x = [100, 125, 150]
 q_idx = 2   # index of mean Darcy velocity q_0 = [1.95e-8, 5.85e-8, 9.8e-8]
 
 # set path to load temperature fields and to save results from post-processing
-dT_arrays_path = '../L1q2/var{}/dT_arrays/'.format(var) 
+dT_arrays_path = '../L{}q{}/var{}/dT_arrays/'.format(L_idx, q_idx, var) 
 path_to_save_results = '../results/L{}q{}/var{}/'.format(L_idx, q_idx, var)
 
 # number of realizations
