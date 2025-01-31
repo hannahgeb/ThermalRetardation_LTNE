@@ -47,7 +47,7 @@ var = 3
 
 # set path to load temperature fields and to save results from post-processing
 dT_arrays_path = '../L1q2/var{}/dT_arrays/'.format(var)  
-path_to_save_results = ('../results/L1q2/var{}/'.format(var))
+path_to_save_results = '../results/L1q2/var{}/'.format(var)
 
 # number of realizations
 n_real = 1
