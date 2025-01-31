@@ -20,7 +20,7 @@ import pandas as pd
 ##############################################
 
 # output directory
-output_dir = '../data/MOOSE_input_files/'
+output_dir = '../data'
 
 # number of realizations
 n_real = 1
