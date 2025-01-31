@@ -7,9 +7,7 @@ to the numerical BTCs.
 
 NOTE:
 This script will not run for general users as the temperature fields (numpy arrays) 
-are not provided in the repository. A single temperature field of an exemplary 
-heterogeneous realization (scenario L1q2, log-conductivity variance of 3) is 
-provided in the repository so that the script can be executed.
+are not provided in the repository.
 
 Author: H. Gebhardt
 """
@@ -48,12 +46,8 @@ def find_nearest(array, value):
 var = 3
 
 # set path to load temperature fields and to save results from post-processing
-#dT_arrays_path = '../L1q2/var{}/dT_arrays/'.format(var)  
-dT_arrays_path = ('../data/Example_L1q2_var3/') # path for example realization, scenario L1q2, variance of 3
-
-save_path = ('../results/')
-#path_to_save_results = (save_path + 'L1q2/var{}/'.format(var))
-path_to_save_results = (save_path + 'Example_L1q2_var3/') # path for example realization, scenario L1q2, variance of 3
+dT_arrays_path = '../L1q2/var{}/dT_arrays/'.format(var)  
+path_to_save_results = ('../results/L1q2/var{}/'.format(var))
 
 # number of realizations
 n_real = 1
