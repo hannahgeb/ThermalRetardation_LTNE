@@ -7,9 +7,7 @@ executed before).
 
 NOTE:
 This script will not run for general users as the temperature fields (numpy arrays) 
-are not provided in the repository. A single temperature field of an exemplary 
-heterogeneous realization (scenario L1q2, log-conductivity variance of 3) is 
-provided in the repository so that the script can be executed.
+are not provided in the repository.
 
 Author: H. Gebhardt
 """
@@ -29,12 +27,10 @@ L_idx = 1   # index of considered correlation length L_x = [100, 125, 150]
 q_idx = 2   # index of mean Darcy velocity q_0 = [1.95e-8, 5.85e-8, 9.8e-8]
 
 # set path to load temperature fields and to save results from post-processing
-#dT_arrays_path = '../L1q2/var{}/dT_arrays/'.format(var) 
-dT_arrays_path = ('../data/Example_L1q2_var3/')
+dT_arrays_path = '../L1q2/var{}/dT_arrays/'.format(var) 
 
 save_path = ('../results/')
-#path_to_save_results = (save_path + 'L{}q{}/var{}/'.format(L_idx, q_idx, var))
-path_to_save_results = (save_path + 'Example_L1q2_var3/')
+path_to_save_results = (save_path + 'L{}q{}/var{}/'.format(L_idx, q_idx, var))
 
 # number of realizations
 n_real = 1  #100 when heterogeneous realizations are loaded
