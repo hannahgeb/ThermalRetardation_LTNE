@@ -26,7 +26,7 @@ var = 3     # variance of ln K field
 L_idx = 1   # index of considered correlation length L_x = [100, 125, 150]
 q_idx = 2   # index of mean Darcy velocity q_0 = [1.95e-8, 5.85e-8, 9.8e-8]
 
-# set path to load temperature fields and to save results from post-processing
+# set path to load temperature fields (depending on where locally stored) and to save results from post-processing
 dT_arrays_path = '../L{}q{}/var{}/dT_arrays/'.format(L_idx, q_idx, var) 
 path_to_save_results = '../results/L{}q{}/var{}/'.format(L_idx, q_idx, var)
 
