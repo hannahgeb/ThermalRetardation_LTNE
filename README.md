@@ -1,6 +1,6 @@
 
 
-# Effective Thermal Retardation in Aquifers of Heterogeneous Hydraulic Conductivity Fields
+# Effective Thermal Retardation and Dispersion in 3D Heterogeneous Aquifers 
 
 This repository accompanies the manuscript:
 
