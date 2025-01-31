@@ -197,13 +197,13 @@ save_csv(np.column_stack([t, kxx_t]), '{}kxx_t.csv'.format(path_to_save_results)
 ### --- Calculate 95% confidence interval of thermal velocity and save results --- ###
 ######################################################################################
 # (only for heterogeneous cases)
-"""
+
 vt_std_dev = np.std(v_therm, ddof=1, axis=0)
 standard_error = vt_std_dev / np.sqrt(n_real)
 confidence_level = 0.95
 z_score = norm.ppf(1 - (1 - confidence_level) / 2)
 margin_of_error= z_score * standard_error
-"""
+
 # save average, standard deviation and margin of error of the thermal velocity as csv
 
 combined_array = np.column_stack([t, vt])
