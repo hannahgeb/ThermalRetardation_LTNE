@@ -100,4 +100,4 @@ You can contact us via <hannah.gebhardt@geo.uni-halle.de>.
 
 ## License
 
-MIT © 2020
+MIT © 2025
