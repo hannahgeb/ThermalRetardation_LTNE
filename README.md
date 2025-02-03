@@ -87,7 +87,7 @@ To run the heat transport model of this study, [MOOSE](https://mooseframework.in
 
 Gaston, D., Newman, C., Hansen, G., & Lebrun-Grandié, D. (2009). Moose: A parallel computational framework for coupled systems of nonlinear equations. Nuclear Engineering and Design, 239(10), 1768–1778. doi: 10.1016/j.nucengdes.2009.05.021
 
-Permann, C. J., Gaston, D. R., Andrˇs, D., Carlsen, R. W., Kong, F., Lindsay, A. D., Miller, J. M., Peterson, J. W., Slaughter, A. E., Stogner, R. H., & Martineau, R. C. (2020). Moose: Enabling massively parallel multiphysics simulation. SoftwareX, 11(10), 100430. doi: 10.1016/j.softx.2020.100430
+Permann, C. J., Gaston, D. R., Andrs, D., Carlsen, R. W., Kong, F., Lindsay, A. D., Miller, J. M., Peterson, J. W., Slaughter, A. E., Stogner, R. H., & Martineau, R. C. (2020). Moose: Enabling massively parallel multiphysics simulation. SoftwareX, 11(10), 100430. doi: 10.1016/j.softx.2020.100430
 
 Wilkins, A., Green, C., & Ennis-King, J. (2020). Porousflow: A multiphysics simulation code for coupled problems in porous media. Journal of Open Source Software, 5(55), 2176. doi: 10.21105/joss.02176
 
