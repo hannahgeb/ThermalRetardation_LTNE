@@ -11,7 +11,8 @@ This script can only be executed if a MOOSE application has been created before,
 with the PorousFlow module library (Wilkins et al. 2020, 2021) enabled in the Makefile. 
 The name of the application used in this study is 'hmgf' (Heat transport in 
 Multi-Gaussian Fields). This Python script must be executed in the directory of the
-created application (in this case '../hmgf/').
+created application (in this case in '../hmgf/'). The directory '../hmgf/problems/' 
+should contain the MOOSE input file ('heat_trans_mgf.i') and the K{}.data files.
 
 For system requirements and MOOSE installation visit 
 https://mooseframework.inl.gov/getting_started/installation/index.html 
