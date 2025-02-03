@@ -1,4 +1,4 @@
-
+[![DOI](https://zenodo.org/badge/924770488.svg)](https://doi.org/10.5281/zenodo.14793522)
 
 # Effective Thermal Retardation and Dispersion in 3D Heterogeneous Aquifers 
 
